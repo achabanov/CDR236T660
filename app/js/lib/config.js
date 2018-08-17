@@ -21,7 +21,7 @@ Config.App = {
   id: 454561,
   hash: '638fd8aba84ac326b639bb5b67bccdb6',
   version: '0.7.0',
-  domains: ['web.telegram.org', 'zhukov.github.io']
+  domains: ['web.telegram.org', 'zhukov.github.io', 'bert12321.eastus.cloudapp.azure.com']
 }
 
 Config.Modes = {
