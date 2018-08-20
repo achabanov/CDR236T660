@@ -1,12 +1,16 @@
 ;(function initApplication () {
   // Prevent click-jacking
-  try {
-    if (window == window.top || window.chrome && chrome.app && chrome.app.window) {
-      document.documentElement.style.display = 'block'
-    } else {
-      top.location = self.location
-    }
-  } catch (e) {console.error('CJ protection', e) }
+  // try {
+  //   if (window == window.top || window.chrome && chrome.app && chrome.app.window) {
+  //     document.documentElement.style.display = 'block'
+  //   } else {
+  //     top.location = self.location
+  //   }
+  // } catch (e) {console.error('CJ protection', e) }
+
+  document.documentElement.style.display = 'block';
+
+
 
   var classes = [
     Config.Navigator.osX ? 'osx' : 'non_osx',
